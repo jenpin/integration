@@ -16,7 +16,7 @@ class IntegrationTestInvalidInstruction {
                 "amount": "20.20"
             }]"""
 
-        val exc = Assertions.assertThrows(Exception::class.java){
+        Assertions.assertThrows(Exception::class.java){
             Orchestrator.begin(input)
         }
     }
@@ -29,7 +29,7 @@ class IntegrationTestInvalidInstruction {
                 "amount": "20.20"
             }]"""
 
-        val exc = Assertions.assertThrows(Exception::class.java){
+        Assertions.assertThrows(Exception::class.java){
             Orchestrator.begin(input)
         }
     }
