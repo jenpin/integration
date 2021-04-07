@@ -1,0 +1,16 @@
+[
+  {
+    "name": "user1",
+    "instruction": "DEPOSIT",
+    "amount": "20.20"
+  },
+  {
+    "name": "user1",
+    "instruction": "WITHDRAW",
+    "amount": "5.0"
+  },
+  {
+    "name": "user1",
+    "instruction": "BALANCE"
+  }
+]
