@@ -45,9 +45,9 @@ The Bank balance should change when the account holder balance changes.Used the 
 - Kotlin 1.3.20
 
 ## Instructions
+To Build & run Unit tests  => `./gradlew build`
+
 To run the application => `./gradlew run`
- 
-To run Unit tests  => `./gradlew test`
 
 To run the Integration tests  => `./gradlew integrationTest`
 
