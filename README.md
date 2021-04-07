@@ -17,8 +17,8 @@ None of these values are mandatory
 It will ignore all empty lines ,spaces and any additional fields appended to the file.
 
 
-####Code flow
-###Input -> Orchestrator -> Action -> Account
+###### Code flow
+##### Input -> Orchestrator -> Action -> Account
 
 
 The Orchestrator chains the flow of
@@ -39,12 +39,12 @@ If need be, the action classes can be customised to hold action specific impleme
  
 The Bank balance should change when the account holder balance changes.Used the `Observer` Pattern to implement that behaviour.
 
-#PreRequistes
+# PreRequistes
 - Gradle 5.2.1
 - Jvm 1.8
 - Kotlin 1.3.20
 
-##Instructions
+## Instructions
 To run the application => `./gradlew run`
  
 To run Unit tests  => `./gradlew test`
